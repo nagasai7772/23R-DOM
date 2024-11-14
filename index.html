@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="border">
+        <img src="" alt="" srcset="" id="back">
+        <img src="" alt="" srcset="" id="logo">
+        
+        
+    <h1 class="c1">Valentine</h1>
+</div>
+<div><img src="" alt="" srcset="" class="photo">
+    <h3 class="num">#5210</h3>
+<h2 class="name">Nagasai</h2>
+<h4 class="pos">Program Manager</h4>
+<img src="" alt="" srcset="" id="QR">
+</div>
+
+<script>
+    // ------------------------------------------Border element-------------------------------
+    let bor=document.getElementById("border")
+ bor.style.border="2px solid"
+ bor.style.height=("430px")
+ bor.style.width=("250px")
+ bor.style.borderRadius=("10px")
+ let background=document.getElementById("back")
+ back.src="./images/background.jpg"
+ back.style.height=("430px")
+ back.style.width=("250px")
+ back.style.borderRadius=("10px")
+
+ 
+
+// ------------------------------------------class element-------------------------------
+
+ let x=document.getElementsByClassName("c1")
+ x[0].style.color="blue"
+ x[0].style.fontStyle="italic"
+ x[0].style.position="absolute"
+ x[0].style.marginTop=("-400px")
+ x[0].style.marginLeft=("100px")
+ // ------------------------------------------Id element-------------------------------
+ let Logo=document.getElementById("logo")
+logo.src="./images/logo.png";
+logo.style.height=("150px")
+logo.style.width=("130px")
+logo.style.position="absolute"
+logo.style.marginLeft=("-250px")
+logo.style.marginTop="-20px"
+
+// ------------------------------------------Photo element-------------------------------
+ let card=document.getElementsByClassName("photo")
+ card[0].src="./images/profile-pic (4).png"
+ card[0].style.height="120px"
+ card[0].style.position="absolute"
+ card[0].style.marginTop="-345px"
+ card[0].style.marginLeft="50px"
+ card[0].style.border="4px solid orange"
+ card[0].style.borderRadius="100%"
+ card[0].style.boxShadow="2px 2px 2px 2px blue"
+// ------------------------------------------Name element-------------------------------
+let Name=document.getElementsByClassName("name")
+Name[0].style.color="red"
+Name[0].style.fontFamily="Lucida Console", "Courier New"
+Name[0].style.position="absolute"
+Name[0].style.marginTop="-190px"
+Name[0].style.marginLeft="65px"
+//  ------------------------------------------Id no element-------------------------------
+ let Idnum=document.getElementsByClassName("num")
+ Idnum[0].style.position="absolute"
+ Idnum[0].style.marginTop="-210px"
+ Idnum[0].style.marginLeft="95px"
+ //------------------------------------------pos element-------------------------------
+let Post=document.getElementsByClassName("pos")
+Post[0].style.position="absolute"
+Post[0].style.marginTop="-165px"
+Post[0].style.marginLeft="58px"
+Post[0].style.fontFamily="Arial, Helvetica, sans-serif"
+//------------------------------------------QR element-------------------------------
+let code=document.getElementById("QR")
+code.src="./images/Qr.png"
+code.style.height="130px"
+code.style.position="absolute"
+code.style.marginTop="-150px"
+code.style.marginLeft="50px"
+</script>
+
+</body>
+</html>
